@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.siteNavWrap .right li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
+/*内容*/
+.neirong{ width: 960px; height: 605px; margin: 0 auto;}
+.neirong .sanjiao{ width: 7px; height: 10px; background: url(../images/sanjiao.png) no-repeat; display: inline-block;}
+.neirong span{ color: #000; font-size: 18px; font-weight: bold;}
+.neirong .kong{ width: 960px; height: 20px; }
+.neirong .kong1{ width: 960px; height: 80px;}
+.neirong p{ width: 910px;line-height: 34px; color: #333333; font-size: 14px;}
+.neirong .kong2{ width: 960px; height: 38px;}
+/*banner*/
+.bannerwrap{ height:380px; margin: 0 auto; background: #000 url(../images/fuwushuomingbanner.png) no-repeat center center; cursor: pointer;}
+
+
+
+
+
+
+
+
+

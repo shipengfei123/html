@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+h1,p,body,span,a,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,b,u,i,strong,em,ins,del,input{ margin:0; padding:0;}
+body{ font-size:12px; font-family:"微软雅黑"; color:#747474;}
+ul,ol{ list-style:none;}
+a{ color:#595959; text-decoration:none;}
+a:hover{ color:#1896f2;}
+
+
+

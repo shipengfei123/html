@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.siteNavWrap{ height: 100px; }
+.siteNavWrap h1{width: 318px; height: 100px; float: left; }
+.siteNavWrap h1 a{ width: 318px;  height:100px; background: url(../images/logo.png) no-repeat; display: block;}
+.siteNavWrap .right{ width: 640px; height: 70px;/* background: #ccc; */float: right;}
+.siteNavWrap .right li{ float: left; height: 100px; }
+.siteNavWrap .right li a{ padding:0 4px; height:34px; margin:36px 48px 0px 0px;font-size: 16px; color: #333;  display: block;}
+.siteNavWrap .right li .nomargin{margin-right: 0px;}
+.siteNavWrap .right li a:hover{ border-bottom: 3px solid #1899f3; color:#1899f3;}
+/*导航*/
+/*footer*/
+.footer{background: #323232; overflow: hidden; color: #fff; padding: 34px 0px;}
+.footer li{ display: inline-block; color:#FFF ; font-size: 14px;}
+.footer li a{ margin: 0px 4px;color: #fff;}
+.footer li a:hover{color: #1899f3;}
+.footer .copyright{ text-align: center;}
+
+/*footer*/
+.container{
+	width: 960px;
+	min-width: 960px;
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

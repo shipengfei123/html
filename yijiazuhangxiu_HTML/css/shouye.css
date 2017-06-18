@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.siteNavWrap .right li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
+/*banner*/
+.bannerwrap{ height:300px; background: #000 url(../images/banner.png) no-repeat center center; cursor: pointer; background-size: 100% 100%; position: relative;}
+.bannerwrap .lunbo{ height: 15px;  width:80px; position: absolute; transform: translate(-50%, -50%); bottom: 0px; left: 50%;}
+.bannerwrap .lunbo span{ width: 15px; height: 15px; background: #ccc; border-radius: 50%; display: block; float: left; margin-right: 5px;}
+
+/*分类*/
+.fenleiwrap{
+    height:285px;
+    background: url(../images/tiaowen.png) no-repeat;
+    background-size: 100% 100%; 
+ }
+.fenleiwrap .fenlei{ 
+	display: flex;
+	display: -webkit-flex;
+    height: 285px;
+    overflow: hidden;
+}
+.fenleiwrap .fenlei .fenlei1{
+    height: 285px;
+    flex: 1;
+    -webkit-flex: 1;
+    background:url(../images/icon1.png) no-repeat center 39px;
+}
+.fenleiwrap .fenlei h2{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+.fenleiwrap .fenlei p{
+    line-height: 32px;
+    color:#fff;
+    text-align: center;
+}
+.fenleiwrap .fenlei .fenlei2{
+    height: 285px;
+    width: 240px;
+    overflow:hidden; background: url(../images/icon2.png) no-repeat center 39px; float:left;}
+.fenleiwrap .fenlei .fenlei3{
+    height: 285px;
+    width: 240px;
+    overflow:hidden;
+    background:url(../images/icon3.png) no-repeat center 39px;
+    float:left;
+}
+.fenleiwrap .fenlei .fenlei4{
+    height: 285px; 
+    width: 240px;
+    overflow:hidden;
+    background: url(../images/icon4.png) no-repeat center 39px;
+    float:right;
+}
+
+/*价格*/
+.jiage{
+    height:346px;
+    margin:34px auto;
+    background: pink url(../images/banner1.png) no-repeat center top;
+}
+.jiage1{ 
+    height:346px;
+    margin-top: 34px; 
+    background: #333 url(../images/jiage2.png) no-repeat center top;
+}
+
+/*服务范围{ height:590px;}*/
+ .fuwu{ 
+    height: 466px;
+    margin-top:30px;
+    margin: 0 auto;
+}
+ .fuwu h2{
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+}
+ .fuwu .box{
+    width: 72px;
+    height: 10px;
+    background: #1899f3;
+    margin: 16px auto;    
+}
+
+ .fuwu p{
+    font-size: 16px;
+    color:#999;
+    margin-bottom: 8px;
+    text-align: center;
+}
+ .fuwu .box:nth-child(1){
+	width: 318px;
+	height: 1px;
+	background: #b3b3b3; 
+}
+.fuwu .box1{display: flex;display: -webkit-flex; margin-top: 30px;}
+ .fuwu .box1>div{ 
+ 	flex: 1;
+ 	-webkit-flex: 1;
+    height: 209px; 
+    background: blueviolet; 
+	margin: 0px 9px;
+}
+ .fuwu .box1 div:nth-child(1){
+	background: url(../images/fuwupic1.png);
+}
+ .fuwu .box1 div:nth-child(2){
+	background: url(../images/fuwupic2.png);
+}
+ .fuwu .box1 div:nth-child(3){
+	background: url(../images/fuwupic3.png);
+}
+ .fuwu .box1 div:nth-child(1):hover:after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(18,153,245,.8);
+	position: absolute;
+	cursor: pointer;
+}
+/*服务范围{ height:590px;}*/
+/*服务流程*/
+.fuwuliuchengwrap{height: 450px;background: url(../images/licheng.png) no-repeat center center;overflow: hidden;}
+.fuwuliuchengwrap h2{color: #333;font-size: 30px;text-align: center;margin-top: 70px;}
+.fuwuliuchengwrap .box,.fuwuchengnuowrap .box{width: 72px;height: 10px;background: #1899f3;margin: 16px auto;}
+.fuwuliuchengwrap p{font-size: 16px;color:#999;margin-bottom: 8px;text-align: center;}
+.fuwuliuchengwrap ul{ height: 236px; margin-top: 20px;}
+.fuwuliuchengwrap ul li{ float: left; width: 94px;text-align: center;/*background: #333; */height: 126px; padding-top: 110px;  font-size: 18px; color: #666;}
+.fuwuliuchengwrap ul li:nth-child(1){ background: url(../images/icon5.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(3){ background: url(../images/icon6.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(5){ background: url(../images/icon7.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(7){ background: url(../images/icon8.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(9){ background: url(../images/icon9.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(11){ background: url(../images/icon10.png) no-repeat;}
+.fuwuliuchengwrap ul li:nth-child(13){ background: url(../images/icon11.png) no-repeat;}
+.fuwuliuchengwrap ul .li_1{ display: table; width: 44px;height: 94px; /*background: deeppink;*/ padding-top: 0px;}
+.fuwuliuchengwrap ul .li_1 .circle{ display: table-cell; vertical-align: middle;}
+.fuwuliuchengwrap ul .li_1 span{ background: #999999; border-radius: 50%; display: inline-block;}
+.fuwuliuchengwrap ul .li_1 span:nth-child(1){ width: 6px; height: 6px; margin-bottom: 2px; margin-right: 6px;}
+.fuwuliuchengwrap ul .li_1 span:nth-child(2){ width: 10px; height: 10px;}
+/*服务流程*/
+/*服务承诺*/
+.fuwuchengnuowrap h2{color: #333;font-size: 30px;text-align: center;margin-top: 76px;}
+.fuwuchengnuowrap p{font-size: 16px;color:#999;margin-bottom: 8px;text-align: center;}
+.fuwuchengnuowrap .icon_wrap{ height: 406px; margin-top: 40px; display: flex; display: -webkit-flex;}
+.fuwuchengnuowrap .icon_wrap div{ flex: 1; -webkit-flex: 1; height:406px; margin: 0px 32px;}
+.fuwuchengnuowrap .icon_wrap h3{ font-weight:bold; font-size: 24px; color: #000; text-align: center; margin-top: 80px;} 
+.fuwuchengnuowrap .icon_wrap .icon_wenzi{ color: #333; font-size: 14px; margin-top: 22px;}
+/*服务承诺*/
+
+
+
+
+
+
+
+
+

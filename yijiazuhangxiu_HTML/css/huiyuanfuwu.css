@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航*/
+.siteNavWrap .right li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
+/*导航*/
+/*banner*/
+.bannerwrap{ height:500px; margin: 0 auto; background: #000 url(../images/banner.png) no-repeat center center; cursor: pointer;}
+/*维修*/
+.weixiu{ width: 960px; height: 372px; /*background: pink;*/margin: 0 auto;}
+.weixiu .weixiu_top{ height: 136px;  overflow: hidden;  border-bottom: 1px dashed #999; margin: 0 auto;}
+.weixiu .weixiu_top h2{ text-align: center; color: #333333; margin-top: 46px; font-weight: normal; font-size: 18px;}
+.weixiu .weixiu_top ul{ height: 54px; width: 860px; /* margin-left: 64px;*//* background: palegoldenrod;*/ margin-top: 10px;}
+.weixiu .weixiu_top ul .fenxiang{ width: 64px; height: 64px;  text-align: center; margin-left: 10px;}
+.weixiu .weixiu_top li{ width: 86px; height: 20px;  float: left;}
+.weixiu .weixiu_top ul li:nth-child(2){ background:  url(../images/icon16.png) no-repeat 0px 0px;}
+.weixiu .weixiu_top ul li:nth-child(3){ background:  url(../images/icon16.png) no-repeat 0px -20px;}
+.weixiu .weixiu_top ul li:nth-child(4){ background:  url(../images/icon16.png) no-repeat 0px -40px;}
+.weixiu .weixiu_top ul li:nth-child(5){ background:  url(../images/icon16.png) no-repeat 0px -60px;}
+.weixiu .weixiu_top ul li:nth-child(6){ background:  url(../images/icon16.png) no-repeat 0px -80px;}
+.weixiu .weixiu_top ul li:nth-child(7){ background:  url(../images/icon16.png) no-repeat 0px -100px;}
+.weixiu .weixiu_top ul li:nth-child(8){ background:  url(../images/icon16.png) no-repeat 0px -120px;}
+.weixiu .weixiu_top ul li:nth-child(9){ background:  url(../images/icon16.png) no-repeat 0px -140px;}
+.weixiu .weixiu_top ul li:nth-child(10){ background: url(../images/icon16.png) no-repeat 0px -160px;}
+.weixiu .weixiu_top ul li:nth-child(11){ background: url(../images/icon16.png) no-repeat 0px -180px; margin-top: 4px;}
+.weixiu .weixiu_top li span{width: 60px; height: 20px;  margin-left: 24px;display: inline-block;}
+
+.weixiu  .weixiu_bottom .wrap{ width: 960px; height: 130px;/* background: #8A2BE2;*/ margin: 40px 0 19px 0px;}
+.weixiu .weixiu_bottom .wrap .pic{width: 220px; height: 130px; background: url(../images/pic.png) no-repeat;  margin: 0px 0px 0px 10px;display: inline-block; float: left; }
+.weixiu .right{ margin-left: 10px; width: 250px; height: 130px; float: left;}
+.weixiu .right li{  height: 16px; width:250px; background: url(../images/xiootubaio.png) no-repeat 0 center;  margin-top: 10px;}
+.weixiu .right li span{ display: inline-block; height: 16px; width: 250px;  font-size: 14px; line-height: 16px; margin-left: 16px;}
+.weixiu .right .nobac{ background: none;}
+.weixiu .right .nobac span { margin-left: 0px;}
+.weixiu .ye1,.weixiu  .ye2{ width: 48px; height: 22px;	border: 1px solid #666; text-align: center; line-height: 22px; float: left; color: #666;}
+.weixiu .ye1,.weixiu .ye2{ color: #1899f3;}
+.weixiu .ye1{ margin-left: 412px; margin-right: 19px;}
+/*维修*/
+
+
